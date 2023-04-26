@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--CSS sheet-->
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<!--BidBox logo-->
+	<link rel="icon" type="images/x-icon" href="bidbox_logo.png">
+	<!--Google fonts-->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space Grotesk:wght@400;700&display=swap">
+	<!--Font awesome reference-->
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	<!--Fonts again-->
+	<link href="https://fonts.googleapis.com/css?family=Bentham|Playfair+Display|Raleway:400,500|Suranna|Trocchi" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap" rel="stylesheet">
+
+	<title>BidBox</title> 
+
+</head>
+<body>
+	
+	<div class="homepg"> 
+
+		<div  class= "container">
+
+			<!--Top Navigation Bar-->
+			<div class="navbar">
+				<img src="D:\IDES\auction.png" alt="logo icon"  class="logo">
+				
+				<ol style="list-style: none; display: inline-block;">
+					<li> <div class="title"><h4>BidBox</h4></div> </li>
+					
+					<li> <!--Search Bar--> 
+						<div class="search_container">
+							<input type="text" name="search" placeholder="Search.." class="search"><button type="submit" class="search_btn"><i class="fa fa-search"> </i></button> 
+						</div>
+					</li>				
+					
+				</ol>
+
+
+				<nav>
+					<ul>
+						<li> <img src="D:\IDES\heart.png" width="24px" height="24px" style="margin-top: 5px;"> </li> <!--Favourites-->
+						<li> <img src="D:\IDES\trolley.png" width="24px" height="24px"> </li>  <!--Add - to - Cart-->
+
+						<li>  <!--Location drop-down -->
+							<div class="location">
+								<i class="fa fa-globe" aria-hidden="true" width="30px" height=30px></i>
+								<div class="loc_drop-down">
+									<a href="#">Pune</a><hr class="style1">
+									<a href="#">Mumbai</a><hr class="style1">
+									<a href="#">Nagpur</a><hr class="style1">
+									<a href="#">Jalgaon</a><hr class="style1">
+									<a href="#">Kolhapur</a>
+								</div>
+							</div>
+						</li>
+
+						<!--Log in button-->
+						<li><button type="button" class="login_btn"><a href="#"> Log in </a></button></li>
+
+					</ul>
+				</nav>   <!--Nav- bar complete-->
+			</div>
+			
+			<div class="header_text">
+				<h4>Bid on items</h4>
+				<p>
+					 Now super Easy and fun <br> The lorem ipsum gets its name from the Latin phrase Neque<br> porroquisquam est qui dolorem ipsum quia dolor sit amet.
+				</p>
+				
+			</div>
+
+			<!--iMAGE row( with 4 figures )-->
+			<div class="row">
+					<figure>
+						<img src="D:\IDES\1.jpg" alt="Books">
+						<figcaption> Books </figcaption>
+					</figure>
+					<figure>
+						<img src="D:\IDES\4.jpg" alt="Electronics">
+						<figcaption> Electronics </figcaption>
+					</figure>
+					<figure>
+						<img src="D:\IDES\3.jpg" alt="Furnitures">
+						<figcaption> Furnitures </figcaption>
+					</figure>
+					<figure>
+						<img src="D:\IDES\2.jpg" alt="Others">
+						<figcaption> Other </figcaption>
+					</figure>
+								
+			</div>
+		</div>
+		<hr class="style1">
+		<!--End of the homepage-->
+
+
+
+		<div class="mid_container">
+
+			<div class="header2"><h3> Latest Popular Products </h3></div>
+
+			<div class="scrollme">
+				<p> Scroll for more </p><i class="fa fa-chevron-right" aria-hidden="true" style="display:inline-block;" width="10px" height="10px"></i>
+			</div>
+
+			<section class="scrollport">
+
+				<div class="img-card1">
+					<div class="product-img">
+						<img src="https://i.pinimg.com/564x/bc/f6/19/bcf6199cbb370ac066b52af58dab5f48.jpg" alt="" width="210px" height="350px">
+					</div>
+					<div class="product-info">
+						<div class="product-text">
+							<h2>Harvest Vase</h2>
+							<h3>By studio Vaneska</h3>
+							<p>
+								Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables<br> as functional objects. The surfaces appear to be<br> sliced and pulled aside.
+							</p>
+						</div>
+						<div class="product-price-btn">
+							<p><span>67</span>$</p>
+							<button type="button" id="buynow">Buy now</button>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="img-card1">
+					<div class="product-img">
+						<img src="https://i.pinimg.com/564x/3c/e8/b1/3ce8b1d48bea5c98656ccb3b667c6713.jpg" alt="" width="210px" height="350px">
+					</div>
+					<div class="product-info">
+						<div class="product-text">
+							<h2>Harvest Vase</h2>
+							<h3>By studio Vaneska</h3>
+							<p>
+								Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables<br> as functional objects. The surfaces appear to be <br>sliced and pulled aside.
+							</p>
+						</div>
+						<div class="product-price-btn">
+							<p><span>54</span>$</p>
+							<button type="button" id="buynow">Buy now</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="img-card1">
+					<div class="product-img">
+						<img src="https://i.pinimg.com/564x/3c/e8/b1/3ce8b1d48bea5c98656ccb3b667c6713.jpg" alt="" width="210px" height="350px">
+					</div>
+					<div class="product-info">
+						<div class="product-text">
+							<h2>Harvest Vase</h2>
+							<h3>By studio Vaneska</h3>
+							<p>
+								Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables<br> as functional objects. The surfaces appear to be <br>sliced and pulled aside.
+							</p>
+						</div>
+						<div class="product-price-btn">
+							<p><span>54</span>$</p>
+							<button type="button" id="buynow">Buy now</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="img-card1">
+					<div class="product-img">
+						<img src="https://i.pinimg.com/564x/3c/e8/b1/3ce8b1d48bea5c98656ccb3b667c6713.jpg" alt="" width="210px" height="350px">
+					</div>
+					<div class="product-info">
+						<div class="product-text">
+							<h2>Harvest Vase</h2>
+							<h3>By studio Vaneska</h3>
+							<p>
+								Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables<br> as functional objects. The surfaces appear to be <br>sliced and pulled aside.
+							</p>
+						</div>
+						<div class="product-price-btn">
+							<p><span>54</span>$</p>
+							<button type="button" id="buynow">Buy now</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="img-card1">
+					<div class="product-img">
+						<img src="https://i.pinimg.com/564x/bc/f6/19/bcf6199cbb370ac066b52af58dab5f48.jpg" alt="" width="210px" height="350px">
+					</div>
+					<div class="product-info">
+						<div class="product-text">
+							<h2>Harvest Vase</h2>
+							<h3>By studio Vaneska</h3>
+							<p>
+								Harvest Vases are a reinterpretation<br> of peeled fruits and vegetables<br> as functional objects. The surfaces appear to be<br> sliced and pulled as
+							</p>
+						</div>
+						<div class="product-price-btn">
+							<p><span>67</span>$</p>
+							<button type="button" id="buynow">Buy now</button>
+						</div>
+					</div>
+				</div>
+
+			</section>
+		</div>
+		<hr class="style1"> <!--End of second page-->
+
+
+
+		<div class="end-container">
+			<div class="row">
+				<div class="col">
+					<ul>
+						<li style="font-size: 20px; font-weight: bold; " ><a href="#"> About </a></li>
+						<li><img src="D:\IDES\auction.png" alt="logo icon" width="40px" height="40px"></li>
+						<li><a href="#"> Team info </a></li>
+						<li><a href="#"> Careers </a></li>
+						<li><a href="#"> Policies </a></li>
+					</ul>
+				</div>
+
+				<div class="col">
+					<ul>
+						<li style="font-size: 20px; font-weight: bold; "><a href="#"> Help </a></li>
+						<li><a href="#"> Seller information center </a></li>
+						<li><a href="#"> Contact Us </a></li>
+						
+					</ul>
+				</div>
+
+				<div class="vertical-hr"></div>
+
+				<div class="col">
+					<ul>
+						<li style="font-size: 20px; font-weight: bold; "> <a href="#"> Buy </a></li>
+						<li><a href="#"> Registration</a></li>
+						<li><a href="#"> Bidding and buying help </a></li>
+						<li><a href="#"> Consumer care </a></li>
+					</ul>
+				</div>
+				
+				<div class="col">
+					<ul>
+						<li style="font-size: 20px; font-weight: bold; "><a href="#"> Sell </a></li>
+						<li><a href="#"> Learn to sell </a></li>
+						<li> <a href="#"> Affiliates </a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+</body>
+</html>
