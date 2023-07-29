@@ -1,0 +1,57 @@
+# Employee Management System in Python
+
+# Dictionary to store employee data
+employees_data = {}
+
+def add_employee():
+    emp_id = input("Enter employee ID: ")
+    name = input("Enter employee name: ")
+    position = input("Enter employee position: ")
+    salary = float(input("Enter employee salary: "))
+
+    employees_data[emp_id] = {
+        'name': name,
+        'position': position,
+        'salary': salary
+    }
+    print("Employee added successfully!")
+
+def view_employee(emp_id):
+    employee = employees_data.get(emp_id)
+    if employee:
+        print("Employee ID:", emp_id)
+        print("Name:", employee['name'])
+        print("Position:", employee['position'])
+        print("Salary:", employee['salary'])
+    else:
+        print("Employee not found.")
+
+def list_employees():
+    print("Employee List:")
+    for emp_id, employee in employees_data.items():
+        print(f"Employee ID: {emp_id}, Name: {employee['name']}")
+
+def main():
+    while True:
+        print("\nEmployee Management System")
+        print("1. Add Employee")
+        print("2. View Employee")
+        print("3. List Employees")
+        print("4. Exit")
+        choice = input("Enter your choice (1/2/3/4): ")
+
+        if choice == '1':
+            add_employee()
+        elif choice == '2':
+            emp_id = input("Enter employee ID to view details: ")
+            view_employee(emp_id)
+        elif choice == '3':
+            list_employees()
+        elif choice == '4':
+            print("Exiting Employee Management System.")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()
